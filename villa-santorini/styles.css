@@ -402,6 +402,139 @@ div#whatsappicon {
 }
 
 /* CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL */
+#carousel-container-section {
+  font-family: system-ui;
+  display: grid;
+  align-content: center;
+  min-height: 100dvh;
+
+  background-color: #f7f8f1;
+}
+.carousel {
+  --carousel-bg: #77b25c;
+  --carousel-clr: #000000;
+
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  background-color: var(--carousel-bg);
+  padding-bottom: 1rem;
+
+  &-content-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+  }
+  &-content-wrapper {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  &-content {
+    min-width: 100%;
+    transition: translate 500ms ease;
+    &[data-state="active"] {
+      translate: calc(-100% * var(--carousel-index)) 0;
+    }
+
+    &[data-state="before-right-enter"] {
+      translate: calc(100% + -100% * var(--carousel-index)) 0;
+      transition: none;
+    }
+    &[data-state="before-left-enter"] {
+      translate: calc(-100% + -100% * var(--carousel-index)) 0;
+      transition: none;
+    }
+    &[data-state="leave-left"] {
+      translate: calc(-100% + -100% * var(--carousel-index)) 0;
+    }
+    &[data-state="leave-right"] {
+      translate: calc(100% + -100% * var(--carousel-index)) 0;
+    }
+  }
+  &-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  &-button {
+    padding: 0;
+    border: 0;
+    border: 1px solid var(--carousel-clr);
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+
+    &[data-active="true"] {
+      background: var(--carousel-clr);
+      scale: 1.5;
+    }
+    &:hover {
+      scale: 1.5;
+    }
+  }
+  &-arrow {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+
+    background: transparent;
+    padding: 2rem;
+    aspect-ratio: 1;
+    border: 0;
+    padding: 0;
+    color: var(--carousel-clr);
+    font-size: clamp(2rem, 6vw, 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    &.arrow-left {
+      left: 0;
+    }
+    &.arrow-right {
+      right: 0;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  padding-block: 1.5rem;
+  max-width: min(80%, max(400px, 100%));
+  margin-inline: auto;
+  margin-block: 1rem;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1rem -0.125rem hsl(0 0 0 / 0.3);
+
+  color: var(--carousel-clr);
+  background: var(--carousel-bg);
+  img {
+    width: clamp(100px, 10vw, 300px);
+    aspect-ratio: 1;
+    border-radius: 1rem;
+  }
+  h2 {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    font-weight: 700;
+  }
+  p {
+    max-width: 40ch;
+    font-size: clamp(0.75rem, 3vw, 1rem);
+
+    line-height: 1.35;
+  }
+}
 
 /* CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL CARROSSEL */
 /* bride page bride page bride page bride page bride page bride page bride page bride page */
