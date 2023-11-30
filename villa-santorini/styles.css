@@ -525,21 +525,27 @@ footer {
   #M-break-line {
     position: relative;
   }
+  #M-break-line > .flex {
+    margin-bottom: 10px;
+  }
 
   #M-break-line span {
     border-bottom: 1px solid rgb(38, 38, 38);
     width: 8vw;
   }
-
-  #M-break-line div {
-  }
-
   #M-break-line h3 {
     font-family: Arapey;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1px;
     text-align: center;
+    font-size: 5vw;
+  }
+
+  #M-break-line p {
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: Arapey, Arial, Helvetica, sans-serif;
   }
 
   footer {
@@ -645,7 +651,7 @@ footer {
   }
   #right-presentation-bottom button {
     text-align: right;
-    font-family: Roboto Condensed;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 300;
@@ -653,4 +659,49 @@ footer {
     letter-spacing: 1.1px;
     border: none;
   }
+  /* SECOND PRESENTATIO SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  */
+  #second-presentation-section {
+    min-width: 280px;
+    max-width: 450px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+  #second-presentation-section > div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #second-presentation-section > div:last-child {
+    justify-content: end;
+    min-width: 120px;
+    max-width: 180px;
+  }
+  #second-presentation-section > div:last-child > h3 {
+    text-align: right;
+  }
+  #second-presentation-section > div:first-child {
+    justify-content: start;
+    min-width: 140px;
+    max-width: 220px;
+  }
+  #second-presentation-section > div > img {
+    width: 100%;
+  }
+  #second-presentation-section > div > :first-child {
+    margin-bottom: 4vw;
+  }
+  #second-presentation-section > div > h3 {
+    font-family: Roboto Flex;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+  }
+  /*  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  */
 }
