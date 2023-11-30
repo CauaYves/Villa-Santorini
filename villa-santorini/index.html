@@ -132,7 +132,7 @@
       </div>
     </section>
 
-      <div id="break-line">
+      <div id="break-line" class="break-line-greater">
         <div class="flex">
           <hr>
           <h1>No instagram</h1>
@@ -145,7 +145,6 @@
   
     <section class="slider">
         <div class="slider-content">
-
           <input type="radio" name="btn-radio" id="radio1">
           <input type="radio" name="btn-radio" id="radio2">
           <input type="radio" name="btn-radio" id="radio3">
@@ -236,13 +235,19 @@
       <div>
         <img src="img/Logo.png" alt="villa santorini">
       </div>
-      <div>
+      <div id="middle-footer-paragraph">
         <p>© 2023 Villa Santorini. Todos os direitos reservados.</p>
       </div>
-      <div>
-        <button><a href="img/instagram.png"></a></button>
-        <button><a href="img/facebook.png"></a></button>
-        <button><a href="img/youtube.png"></a></button>
+      <div id="footer-icons">
+        <a href="#">
+          <img src="img/instagram.png"/>
+        </a>
+        <a href="#">
+          <img src="img/facebook.png"/>
+        </a>
+        <a href="#">
+          <img src="img/youtube.png"/>
+        </a>
       </div>
     </footer>
 
@@ -250,11 +255,7 @@
       const header = document.querySelector("header");
       const hamburgerBtn = document.querySelector("#hamburger-btn");
       const closeMenuBtn = document.querySelector("#close-menu-btn");
-
-      // Toggle mobile menu on hamburger button click
       hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
-
-      // Close mobile menu on close button click
       closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
     </script>
     <script src="scripts/carousel.js"></script>

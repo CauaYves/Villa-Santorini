@@ -4,6 +4,8 @@ section.slider {
   padding: 0 !important;
   overflow: hidden;
   border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 14px solid rgb(255, 255, 255);
 }
 
 .slider-content {
