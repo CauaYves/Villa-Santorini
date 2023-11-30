@@ -1,8 +1,9 @@
 section.slider {
   margin: auto;
-  width: 95%;
+  width: 100vh;
   padding: 0 !important;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .slider-content {
@@ -28,8 +29,7 @@ section.slider {
   width: 100%;
 }
 
-.nav-manual,
-.nav-auto {
+.nav-manual {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -39,8 +39,7 @@ section.slider {
   left: 0px;
 }
 
-.nav-manual .manual-btn,
-.nav-auto div {
+.nav-manual .manual-btn {
   border: 1px solid #636363;
   padding: 4px;
   border-radius: 50%;
@@ -48,8 +47,7 @@ section.slider {
   transition: 0.2s;
 }
 
-.nav-manual .manual-btn:not(:last-child),
-.nav-auto div:not(:last-child) {
+.nav-manual .manual-btn:not(:last-child) {
   margin-right: 10px;
 }
 
