@@ -126,4 +126,7 @@ section.slider {
   section.slider {
     overflow: scroll;
   }
+  .nav-manual {
+    display: none;
+  }
 }
