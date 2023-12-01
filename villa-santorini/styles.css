@@ -110,6 +110,7 @@ main#desktop {
 
 main#mobile {
   display: none;
+  overflow: hidden;
 }
 
 div#home-collumns {
@@ -582,14 +583,14 @@ footer {
     height: 200px;
   }
 
-  #presentarion-image {
+  #presentation-image {
     position: absolute;
     top: -20px;
-    right: -50px;
+    right: -20px;
   }
 
-  #presentarion-image img {
-    width: 180px;
+  #presentation-image img {
+    width: 140px;
   }
   #presentarion-text {
     height: 150px;
