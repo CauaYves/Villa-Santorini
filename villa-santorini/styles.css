@@ -110,7 +110,6 @@ main#desktop {
 
 main#mobile {
   display: none;
-  overflow: hidden;
 }
 
 div#home-collumns {

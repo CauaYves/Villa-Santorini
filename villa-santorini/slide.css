@@ -1,9 +1,26 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a3a3a3;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 section.slider {
   margin: auto;
-  width: 100vh;
+  width: 70vw;
   padding: 0 !important;
   overflow: hidden;
-  border-radius: 5px;
   background-color: rgb(255, 255, 255);
   border: 14px solid rgb(255, 255, 255);
 }
@@ -103,4 +120,10 @@ section.slider {
 
 #radio9:checked ~ .primeiro {
   margin-left: -80.8%;
+}
+
+@media (max-width: 768px) {
+  section.slider {
+    overflow: scroll;
+  }
 }
