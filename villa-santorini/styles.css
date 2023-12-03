@@ -127,21 +127,20 @@ div#home-collumns {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-bottom: 40px;
 }
 
 #left-bride {
-  width: 50%;
+  width: 20vh;
   border-radius: 150px 150px 0px 0px;
 }
 
 div#center-image {
-  border-top: 1px solid black;
   border-radius: 510px;
-  padding: 30px;
 }
 div#center-image > img {
   border-radius: 180px;
-  width: 100%;
+  width: 20vw;
 }
 #center {
   display: flex;
@@ -161,16 +160,14 @@ div#center-image > img {
 }
 
 h1#principal {
-  margin-top: 50px;
-  width: 100%;
-  font-size: 2.5vw;
+  font-size: 3.5vh;
   font-weight: 300;
 }
 
 #left-text {
   font-weight: 400;
   font-family: Harmattan;
-  font-size: 24px;
+  font-size: 3vh;
   font-weight: 400;
   line-height: 24px; /* 100% */
   letter-spacing: 1.2px;
@@ -184,10 +181,10 @@ div#buttons {
   border-radius: 15px;
   background: #000;
   color: white;
-  height: 50px;
+  height: fit-content;
   width: fit-content;
   padding: 10px 25px;
-  font-size: 110%;
+  font-size: 2vh;
   cursor: pointer;
   margin-bottom: 30px;
 }
@@ -207,17 +204,13 @@ div#buttons {
   position: relative;
 }
 
-#top {
-  width: 50%;
-}
-
 #top h5 {
   font-family: Roboto Flex;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 1px;
-  width: max-content;
+  width: fit-content;
 }
 
 #middle {
@@ -234,6 +227,10 @@ div#buttons {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 1px;
+}
+
+#space-villa {
+  width: 20vh;
 }
 #play-button {
   cursor: pointer;
