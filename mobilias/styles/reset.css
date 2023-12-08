@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+}
+p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1 {
+  font-family: "Arapey", serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
