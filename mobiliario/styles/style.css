@@ -1,3 +1,7 @@
+.hidden {
+  display: block;
+}
+
 main {
   max-width: 1200px;
   margin: auto;
@@ -48,6 +52,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
   main {
     max-width: 1200px;
     margin: auto;
@@ -76,5 +83,20 @@ p {
   }
   #items {
     justify-content: space-around;
+  }
+
+  #M-mogno {
+    width: 100dvw;
+    padding: 20px;
+  }
+  #M-mogno-header img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #M-mesa-image {
+    margin-bottom: 30px;
+  }
+  #M-mesa-image img {
+    width: 100%;
   }
 }

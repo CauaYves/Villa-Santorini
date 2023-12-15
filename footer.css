@@ -16,6 +16,19 @@ footer {
 }
 @media (max-width: 768px) {
   footer {
-    flex-direction: column;
+    position: relative;
+  }
+  #logo-wrapper img {
+    width: 100px;
+  }
+  #middle-footer-paragraph {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+  }
+  #middle-footer-paragraph p {
+    font-size: 12px;
+    text-align: center;
   }
 }
