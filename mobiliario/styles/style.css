@@ -1,0 +1,80 @@
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 150px;
+}
+#mobilias {
+  width: 100%;
+}
+
+#header-main img {
+  width: 100%;
+}
+#header-main div {
+  width: 60%;
+  margin: auto;
+}
+#header-main div h2 {
+  color: #4a4a4a;
+  text-align: center;
+  font-family: Arapey;
+  font-size: 2.4vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+#items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.furniture {
+  width: 20vh;
+  margin: 40px;
+}
+.furniture img {
+  width: 100%;
+}
+
+.furniture h5,
+p {
+  font-family: "Arapey";
+  text-align: center;
+}
+.furniture h5 {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+  }
+  .furniture {
+    width: 20vh;
+    margin: 10px 0px;
+  }
+  #header-main img {
+    width: 100%;
+  }
+  #header-main div {
+    width: 80%;
+    margin: auto;
+  }
+  #header-main div h2 {
+    color: #4a4a4a;
+    text-align: center;
+    font-family: Arapey;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+  #items {
+    justify-content: space-around;
+  }
+}
