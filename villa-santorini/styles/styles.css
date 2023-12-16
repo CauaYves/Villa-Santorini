@@ -394,29 +394,6 @@ div#whatsappicon {
     font-family: Arapey, Arial, Helvetica, sans-serif;
   }
 
-  footer {
-    width: 100vw;
-    padding: 0;
-    position: relative;
-    padding: 20px;
-  }
-
-  footer div:first-child img {
-    width: 140px;
-  }
-
-  #middle-footer-paragraph {
-    width: max-content;
-    position: absolute;
-    bottom: -50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-  }
-
-  #middle-footer-paragraph p {
-    font-size: smaller;
-  }
   #presentation-section {
     margin: 40px auto 60px auto;
     min-width: 280px;

@@ -1,0 +1,136 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a3a3a3;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#carousel-wrapper {
+  padding-bottom: 20px;
+  position: relative;
+}
+section.slider {
+  margin: auto;
+  width: 70vw;
+  padding: 0 !important;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.slider-content {
+  width: 1000%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input,
+.img-mobile {
+  display: none;
+}
+
+.slide-box {
+  width: 10.1%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.slide-box img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.nav-manual {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.nav-manual .manual-btn {
+  border: 1px solid #636363;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover {
+  background-color: #646464;
+}
+
+#radio1:checked ~ .nav-manual .label1,
+#radio2:checked ~ .nav-manual .label2,
+#radio3:checked ~ .nav-manual .label3,
+#radio4:checked ~ .nav-manual .label4,
+#radio5:checked ~ .nav-manual .label5,
+#radio6:checked ~ .nav-manual .label6,
+#radio7:checked ~ .nav-manual .label7,
+#radio8:checked ~ .nav-manual .label8,
+#radio9:checked ~ .nav-auto .nav-auto-btn9 {
+  background-color: rgb(0, 0, 0);
+}
+
+#radio1:checked ~ .primeiro {
+  margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro {
+  margin-left: -10.1%;
+}
+
+#radio3:checked ~ .primeiro {
+  margin-left: -20.2%;
+}
+
+#radio4:checked ~ .primeiro {
+  margin-left: -30.3%;
+}
+
+#radio5:checked ~ .primeiro {
+  margin-left: -40.4%;
+}
+
+#radio6:checked ~ .primeiro {
+  margin-left: -50.5%;
+}
+
+#radio7:checked ~ .primeiro {
+  margin-left: -60.6%;
+}
+
+#radio8:checked ~ .primeiro {
+  margin-left: -70.7%;
+}
+
+#radio9:checked ~ .primeiro {
+  margin-left: -80.8%;
+}
+
+@media (max-width: 768px) {
+  section.slider {
+    overflow: scroll;
+  }
+  .nav-manual {
+    display: none;
+  }
+}
