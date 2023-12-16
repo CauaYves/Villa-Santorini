@@ -14,9 +14,16 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
+#middle-footer-paragraph p {
+  font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
+}
 @media (max-width: 768px) {
   footer {
     position: relative;
+  }
+  footer div:first-child {
+    width: 100px;
   }
   #logo-wrapper img {
     width: 100px;
@@ -30,5 +37,8 @@ footer {
   #middle-footer-paragraph p {
     font-size: 12px;
     text-align: center;
+  }
+  #footer-icons {
+    padding: 30px 0px;
   }
 }

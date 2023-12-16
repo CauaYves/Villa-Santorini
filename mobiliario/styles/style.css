@@ -1,7 +1,9 @@
 .hidden {
   display: block;
 }
-
+#M-mogno {
+  display: none;
+}
 main {
   max-width: 1200px;
   margin: auto;
