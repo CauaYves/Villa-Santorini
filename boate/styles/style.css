@@ -4,8 +4,9 @@
 #mobile {
   display: none;
 }
-#destop {
+#desktop {
   margin-top: 140px;
+  padding: 0px 40px;
 }
 #main-header {
   text-align: center;
@@ -14,36 +15,9 @@
   width: 50%;
   margin: 0px auto 40px auto;
 }
-.typo-p {
-  color: #4a4a4a;
-  text-align: center;
-  font-family: Arapey;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.8px;
-}
-.typo-h1 {
-  font-family: Arapey;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 1.2px;
-  margin-bottom: 15px;
-}
-.typo-h3 {
-  font-family: Arapey;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 100% */
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-}
 
 .presentation-person {
+  height: 65vh;
   border: 1px solid rgba(0, 0, 0, 0.13);
   border-radius: 5px;
 
@@ -58,7 +32,8 @@
   width: 30%;
 }
 .left {
-  height: 70%;
+  /* height: 100%; */
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,7 +47,64 @@
   border-radius: 50%;
   width: 70%;
 }
+
+h1 {
+  font-family: Arapey;
+  font-size: calc(3vh + 3vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+h3 {
+  font-family: Arapey;
+  font-size: calc(1vh + 1vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 105% */
+  letter-spacing: 2px;
+}
+
+p {
+  color: #4a4a4a;
+  font-family: Arapey;
+  font-size: calc(0.6vh + 0.6vw);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
 @media (max-width: 768px) {
+  .typo-h1 {
+    font-family: Arapey;
+    font-size: calc(3vh + 2vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.6px;
+  }
+
+  .typo-h3 {
+    font-family: Arapey;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .typo-p {
+    color: #4a4a4a;
+    font-family: Arapey;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: center;
+  }
+
   #desktop {
     display: none;
   }

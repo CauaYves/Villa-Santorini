@@ -21,7 +21,7 @@
 }
 section.slider {
   margin: auto;
-  width: 70vw;
+  width: 90vw;
   padding: 0 !important;
   padding-bottom: 10px;
   overflow: hidden;
@@ -31,6 +31,7 @@ section.slider {
   width: 1000%;
   height: auto;
   display: flex;
+  margin-left: 10px;
 }
 
 .slider-content input,
