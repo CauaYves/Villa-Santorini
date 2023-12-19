@@ -479,6 +479,8 @@ div#whatsappicon {
     letter-spacing: 1px;
   }
   #right-presentation-bottom button {
+    background-color: #dfd4bc;
+
     text-align: right;
     font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -487,6 +489,9 @@ div#whatsappicon {
     line-height: 20px;
     letter-spacing: 1.1px;
     border: none;
+  }
+  #right-presentation-bottom button img {
+    width: 50%;
   }
   /* SECOND PRESENTATIO SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  SECOND PRESENTATIO  */
   #second-presentation-section {
@@ -520,7 +525,6 @@ div#whatsappicon {
     max-width: 220px;
   }
   #second-presentation-section > div > img {
-    width: 100%;
   }
   #second-presentation-section > div > :first-child {
     margin-bottom: 4vw;

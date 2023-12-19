@@ -5,15 +5,20 @@
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  background-color: #dfd4bc;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #a3a3a3;
+
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+::-webkit-scrollbar-corner {
+  background-color: #dfd4bc;
 }
 
 section.slider {
@@ -21,8 +26,6 @@ section.slider {
   width: 70vw;
   padding: 0 !important;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  border: 14px solid rgb(255, 255, 255);
 }
 
 .slider-content {
@@ -41,6 +44,7 @@ section.slider {
   height: auto;
   position: relative;
   text-align: center;
+
   transition: 1s;
 }
 
