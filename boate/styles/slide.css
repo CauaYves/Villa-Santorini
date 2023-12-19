@@ -21,7 +21,7 @@
 }
 section.slider {
   margin: auto;
-  width: 90vw;
+  width: 60vw;
   padding: 0 !important;
   padding-bottom: 10px;
   overflow: hidden;
@@ -133,5 +133,20 @@ section.slider {
   }
   .nav-manual {
     display: none;
+  }
+  .slide-box {
+    width: 11.5%;
+  }
+  .slide-box img {
+    width: 100%;
+  }
+  .slider-content {
+    margin: auto;
+  }
+  .slider-content {
+    width: 1000%;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
   }
 }

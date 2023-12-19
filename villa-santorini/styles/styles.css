@@ -295,6 +295,12 @@ div#whatsappicon {
   min-width: 70%;
   max-width: 90%;
 }
+#top img {
+  width: 20%;
+}
+#play-button {
+  width: 30%;
+}
 /* middle page middle page middle page middle page middle page middle page middle page */
 
 #bride {
