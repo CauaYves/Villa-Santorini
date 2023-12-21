@@ -44,9 +44,8 @@
 }
 
 .button-hoverling img {
-  width: 80%;
+  width: unset;
 }
-
 .button-hoverling:hover span {
   display: flex;
   align-items: center;
