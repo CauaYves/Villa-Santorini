@@ -84,3 +84,30 @@ span {
   width: 100%;
   transition: border 0.2s;
 }
+
+@media (max-width: 768px) {
+  #buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button-hoverling {
+    background-color: #897d6ea3;
+
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    transition: all 0.2s ease-in;
+    position: relative;
+  }
+}
