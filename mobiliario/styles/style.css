@@ -59,8 +59,7 @@ div#whatsappicon {
   margin: 40px;
 }
 .furniture:hover {
-  width: 20vw;
-  margin: 30px;
+  width: 23vh;
   transition: all 0.3s ease-in;
 }
 .furniture img {
