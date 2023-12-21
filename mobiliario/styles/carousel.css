@@ -1,0 +1,47 @@
+body {
+  position: relative;
+}
+#carousel {
+  display: none;
+  padding-top: 100px;
+  width: 100dvw;
+  height: 100dvh;
+
+  position: fixed;
+  background-color: rgba(182, 182, 182, 0.582);
+}
+
+#close {
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 170px;
+  top: 150px;
+}
+#close img {
+  border-radius: 50%;
+}
+
+#images-container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#presented-image {
+  width: 35%;
+  display: block;
+}
+
+#left,
+#right {
+  width: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+}
