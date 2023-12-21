@@ -1,0 +1,86 @@
+@keyframes sliderow {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  20% {
+    top: -7px;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes textopacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button-hoverling {
+  background-color: #897d6ea3;
+
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in;
+  position: relative;
+}
+
+.button-hoverling img {
+  width: 80%;
+}
+
+.button-hoverling:hover span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: textopacity;
+  animation-duration: 1s;
+}
+.button-hoverling:hover {
+  width: 300px;
+}
+.button-hoverling span p {
+  padding-left: 10px;
+  font-family: Arapey, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+span {
+  padding-left: 5px;
+  display: none;
+  color: #ffff;
+}
+.vertical-line {
+  border-right: 2px solid #ffffff;
+  height: 50px;
+}
+.button-hoverling:hover .horizontal-line {
+  display: block;
+  opacity: 0;
+  animation: sliderow;
+  animation-duration: 1s;
+  position: absolute;
+}
+.horizontal-line {
+  display: none;
+  border-bottom: 3px solid #ffff;
+  width: 100%;
+  transition: border 0.2s;
+}
