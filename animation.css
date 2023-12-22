@@ -106,7 +106,15 @@ span {
     justify-content: center;
     cursor: pointer;
 
+    animation: none;
     transition: all 0.2s ease-in;
     position: relative;
+  }
+  .button-hoverling:hover .horizontal-line,
+  .button-hoverling:hover span,
+  .button-hoverling:hover {
+    all: initial;
+    display: block;
+    transition: none;
   }
 }

@@ -65,6 +65,7 @@ body {
 #preview-images img {
   cursor: pointer;
   width: 4%;
+  height: 70px;
   border-top-right-radius: 70px;
   border-top-left-radius: 70px;
 }

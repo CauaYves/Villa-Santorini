@@ -64,8 +64,9 @@ div#whatsappicon {
 }
 .furniture img {
   width: 100%;
-  border-top-right-radius: 70px;
-  border-top-left-radius: 70px;
+  height: 83%;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
 }
 .furniture h5,
 p {
