@@ -55,6 +55,11 @@ div#whatsappicon {
   width: 70%;
 }
 
+.right img:hover {
+  width: 100%;
+  transition: width 1s ease;
+}
+
 h1 {
   font-family: Arapey;
   font-size: calc(3vh + 3vw);

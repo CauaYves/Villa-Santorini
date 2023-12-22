@@ -59,9 +59,17 @@ div#whatsappicon {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+
 .right img {
   border-radius: 50%;
   width: 70%;
+}
+.right img:hover {
+  width: 100%;
+  transition: width 1s ease;
+}
+#lessmargin {
+  margin-left: -70px;
 }
 
 h1 {
