@@ -22,13 +22,11 @@ function hiddenModal() {
 
 function nextImage() {
     globalImageId = (globalImageId + 1) % 21; // Limita o valor entre 0 e 20
-
     updatePresentationImage()
 }
 
 function underImage() {
     globalImageId = (globalImageId - 1 + 21) % 21; // Garante que o resultado seja não negativo
-
     updatePresentationImage()
 }
 
@@ -36,7 +34,11 @@ function updatePresentationImage() {
     const imageDataId = document.querySelector(`img[data-id="${globalImageId}"]`);
     if (imageDataId) {
         presentedImage.src = imageDataId.src;
-    } else {
-        console.error(`Elemento com data-id ${globalImageId} não encontrado.`);
     }
+}
+
+function updateGlobalImageId(imageElement){
+    const dataId = imageElement.getAttribute("data-id")
+    globalImageId = dataId
+    updatePresentationImage()
 }
