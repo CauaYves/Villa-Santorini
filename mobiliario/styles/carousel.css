@@ -10,6 +10,7 @@ body {
   position: fixed;
 
   background-color: #00000067;
+  backdrop-filter: blur(15px);
 }
 
 #close {
@@ -37,6 +38,10 @@ body {
 #presented-image {
   width: 30%;
   display: block;
+}
+#presented-image {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.396);
 }
 
 #left,
