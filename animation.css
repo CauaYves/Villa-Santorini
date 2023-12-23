@@ -113,5 +113,16 @@ span {
   .button-hoverling:hover .horizontal-line,
   .button-hoverling:hover span,
   .button-hoverling:hover {
+    animation: none;
+  }
+  .button-hoverling:hover .horizontal-line {
+    display: none;
+  }
+  .button-hoverling:hover {
+    width: 80px;
+  }
+  .button-hoverling:hover span {
+    display: none;
+    animation: none;
   }
 }
