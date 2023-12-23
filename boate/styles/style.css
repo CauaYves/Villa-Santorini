@@ -145,20 +145,14 @@ p {
   }
   .top-presentation {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
-  .top-presentation div {
-    width: 50%;
+  .top-presentation :nth-child(2) {
+    text-align: center;
   }
-  .top-presentation div:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .top-presentation div:first-child .typo-h1 {
-    margin-bottom: 20px;
-  }
+
   .bottom-presentation {
     margin: 10px 0px;
   }

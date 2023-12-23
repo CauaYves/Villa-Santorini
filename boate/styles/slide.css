@@ -137,6 +137,7 @@ section.slider {
 @media (max-width: 768px) {
   section.slider {
     overflow: scroll;
+    width: 90vw;
   }
   .nav-manual {
     display: none;
