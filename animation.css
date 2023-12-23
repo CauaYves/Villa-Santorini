@@ -113,8 +113,5 @@ span {
   .button-hoverling:hover .horizontal-line,
   .button-hoverling:hover span,
   .button-hoverling:hover {
-    all: initial;
-    display: block;
-    transition: none;
   }
 }
