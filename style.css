@@ -14,8 +14,13 @@ main {
   justify-content: space-between;
 }
 #logo {
-  width: 70vw;
+  width: 30vw;
 }
 #buttons-wrapper {
   display: flex;
+}
+@media (max-width: 768px) {
+  #logo {
+    width: 70vw;
+  }
 }
