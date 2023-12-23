@@ -94,8 +94,8 @@ span {
   .button-hoverling {
     background-color: #897d6ea3;
 
-    width: 80px;
-    height: 80px;
+    width: 28vw;
+    height: 28vw;
     margin: 5px;
 
     border: none;
@@ -119,7 +119,8 @@ span {
     display: none;
   }
   .button-hoverling:hover {
-    width: 80px;
+    width: 28vw;
+    height: 28vw;
   }
   .button-hoverling:hover span {
     display: none;
